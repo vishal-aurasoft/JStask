@@ -348,7 +348,8 @@ function index_data() {
     let html = ``;
     let x = document.getElementById("grp");
     for (let item of items) {
-        html += `<div class="card" id="${item.id}">
+        html += `<div class="col-md-3">
+        <div class="card" id="${item.id}">
 <img class="card-img-top mt-2" src="${item.thumbnail}" alt="Card image cap">
 <div class="card-body">
 
@@ -369,6 +370,7 @@ function index_data() {
             <i class="bi bi-suit-heart-fill ms-auto shop-log-1" id="favorate${item.id}" onclick="Fav(${item.id})"></i>
             <i class="bi bi-cart4 shop-log-2" type="button" onclick="cart_page('${item.id}')" ></i>
         </div>
+    </div>
     </div>
 </div>
 </div>`;

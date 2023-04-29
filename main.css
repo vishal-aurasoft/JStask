@@ -47,10 +47,10 @@ del {
     border-bottom: 1px solid rgb(206, 204, 204);
 }
 
-.products {
+/* .products {
     padding: 30px 50px;
-}
-
+} */
+/* 
 .card-grp {
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ del {
 .card-grp .card {
     width: 340px;
     margin: 5px;
-}
+} */
 
 .shoping-logos .shop-log-1,
 .shoping-logos .shop-log-2,
